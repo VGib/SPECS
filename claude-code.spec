@@ -1,5 +1,5 @@
 Name:           claude-code
-Version:        2.1.119
+Version:        2.1.198
 Release:        0
 Summary:        An agentic coding tool that lives in your terminal
 License:        Proprietary
