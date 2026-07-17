@@ -1,5 +1,5 @@
 Name:           opencode
-Version:        1.17.13
+Version:        1.18.3
 Release:        1%{?dist}
 Summary:        The AI coding agent built for the terminal
 
