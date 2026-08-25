@@ -1,5 +1,5 @@
 %global pkgname kiro-cli
-%global pkgver  2.10.0
+%global pkgver  2.19.1
 %global pkgrel  1
 
 Name:           %{pkgname}
