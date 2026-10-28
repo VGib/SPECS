@@ -3,7 +3,7 @@
 %global __strip /bin/true
 
 Name:           kiro-ide
-Version:        1.4.26
+Version:        1.4.51
 Release:        1
 Epoch:          1
 Summary:        An agentic AI IDE with spec-driven development from prototype to production
