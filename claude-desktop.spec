@@ -7,7 +7,7 @@
 %global __os_install_post %{nil}
 
 Name:           claude-desktop
-Version:        4.23118.0
+Version:        5.11492.0
 Release:        1%{?dist}
 Summary:        Official Claude AI desktop app from Anthropic — Chat, Cowork, and Claude Code
 
