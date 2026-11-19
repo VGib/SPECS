@@ -3,7 +3,7 @@
 %global __strip /bin/true
 
 Name:           kiro-ide
-Version:        1.4.178
+Version:        1.4.236
 Release:        1
 Epoch:          1
 Summary:        An agentic AI IDE with spec-driven development from prototype to production
@@ -101,7 +101,7 @@ ln -s /opt/Kiro/bin/kiro %{buildroot}%{_bindir}/kiro
 # Intégration système (Desktop, icônes, complétion)
 install -m 0644 usr/share/appdata/kiro.appdata.xml %{buildroot}%{_datadir}/metainfo/
 install -m 0644 usr/share/applications/kiro.desktop %{buildroot}%{_datadir}/applications/
-install -m 0644 usr/share/applications/kiro-url-handler.desktop %{buildroot}%{_datadir}/applications/
+install -m 0644 usr/share/applications/kiro.UrlHandler.desktop %{buildroot}%{_datadir}/applications/
 install -m 0644 usr/share/pixmaps/code-oss.png %{buildroot}%{_datadir}/pixmaps/kiro.png
 install -m 0644 usr/share/mime/packages/kiro-workspace.xml %{buildroot}%{_datadir}/mime/packages/
 install -m 0644 usr/share/bash-completion/completions/kiro %{buildroot}%{_datadir}/bash-completion/completions/
@@ -113,7 +113,7 @@ install -m 0644 usr/share/zsh/vendor-completions/_kiro %{buildroot}%{_datadir}/z
 %{_datadir}/licenses/%{name}/
 %{_datadir}/metainfo/kiro.appdata.xml
 %{_datadir}/applications/kiro.desktop
-%{_datadir}/applications/kiro-url-handler.desktop
+%{_datadir}/applications/kiro.UrlHandler.desktop
 %{_datadir}/pixmaps/kiro.png
 %{_datadir}/mime/packages/kiro-workspace.xml
 %{_datadir}/bash-completion/completions/kiro
