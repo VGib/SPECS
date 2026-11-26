@@ -7,7 +7,7 @@
 %global __os_install_post %{nil}
 
 Name:           claude-desktop
-Version:        5.11492.5
+Version:        6.28899.6
 Release:        1%{?dist}
 Summary:        Official Claude AI desktop app from Anthropic — Chat, Cowork, and Claude Code
 
@@ -122,8 +122,5 @@ fi
 /usr/share/licenses
 /usr/share/icons/
 /usr/share/doc
-/usr/share/applications/
-%if 0%{?_licensedir:1}
-%license /usr/share/licenses/%{name}/LICENSE
-%endif
+/usr/share/pixmaps
 %ghost /usr/bin/virtiofsd
